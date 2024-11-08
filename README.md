@@ -81,7 +81,7 @@ To test the application with some dummy data, run the following command:
 
    If you need to create a default superuser to access the Django admin panel, use the following Docker command:
    ```bash
-   docker exec simple_lms python manage.py createsuperuser
+   docker exec -it simple_lms python manage.py createsuperuser
    ```
 
 7. **Access the Application**
